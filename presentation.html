@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>George Rector — ePortfolio</title>
+  <title>Presentation — George Rector ePortfolio</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -16,8 +16,8 @@
         <span class="brand-second">ePortfolio</span>
       </a>
       <nav class="nav">
-        <a href="index.html" class="nav-link active">About Me</a>
-        <a href="cyse.html" class="nav-link">CYSE 201S</a>
+        <a href="index.html" class="nav-link">About Me</a>
+        <a href="cyse.html" class="nav-link active">CYSE 201S</a>
       </nav>
       <button class="mobile-toggle" onclick="document.querySelector('.mobile-menu').classList.toggle('open')">☰</button>
     </div>
@@ -29,61 +29,56 @@
       <a href="presentation.html" class="sub-link">Presentation</a>
       <a href="case-study.html" class="sub-link">Case Study</a>
     </div>
+    <div class="sub-nav">
+      <div class="sub-nav-inner">
+        <a href="cyse.html" class="sub-link">Overview</a>
+        <a href="reviews.html" class="sub-link">Article Reviews</a>
+        <a href="career.html" class="sub-link">Career Paper</a>
+        <a href="presentation.html" class="sub-link active">Presentation</a>
+        <a href="case-study.html" class="sub-link">Case Study</a>
+      </div>
+    </div>
   </header>
 
   <main>
     <div class="container">
-      <div class="section" style="padding-top: 80px;">
-        <div class="kicker fade-up">HELLO —</div>
-
-        <h1 class="hero-title fade-up delay-1">
-          I'm <em class="title-italic">George Rector</em>,<br />
-          welcome to my ePortfolio.
+      <div class="section">
+        <div class="kicker fade-up">PRESENTATION</div>
+        <h1 class="page-title fade-up delay-1">
+          Cybersecurity <em class="title-italic">presentation</em>
         </h1>
+        <p class="lead fade-up delay-2">
+          A presentation connecting cybersecurity policy, human behavior, and social science research — presented as part of the CYSE 201S coursework.
+        </p>
 
-        <div class="bio-section fade-up delay-3" style="max-width: 760px;">
-            <p class="bio-para">
-              Hi, my name is <strong>George Rector</strong> and this is my ePortfolio. I am 24 years old and am currently studying at <strong>Old Dominion University</strong> for a Bachelor's in Cybersecurity with a Major in Artificial Intelligence.
-            </p>
-            <p class="bio-para">
-              I graduated high school in 2020 and enlisted in the Marine Corps afterwards <em>(Semper Fi)</em>. My hobbies are video games, golf, watching sports, and making homebrews.
-            </p>
-            <p class="bio-para">
-              When I graduate I hope to find a job in the ever growing AI field and live the good life. Below are different aspects of my time here at Old Dominion including classes and the work I did in those classes.
-            </p>
+        <div class="review-card fade-up delay-1">
+          <div class="review-header">
+            <span class="review-num">Slide Deck</span>
+            <span class="review-type">PDF / PPTX</span>
+          </div>
 
-            <div class="fact-grid">
-              <div class="fact">
-                <div class="fact-label">University</div>
-                <div class="fact-value">Old Dominion University</div>
-              </div>
-              <div class="fact">
-                <div class="fact-label">Major</div>
-                <div class="fact-value">Cybersecurity / AI</div>
-              </div>
-              <div class="fact">
-                <div class="fact-label">Background</div>
-                <div class="fact-value">U.S. Marine Corps Veteran</div>
-              </div>
-              <div class="fact">
-                <div class="fact-label">Class of</div>
-                <div class="fact-value">High School '20</div>
-              </div>
+          <div class="upload-box">
+            <div class="upload-label">UPLOADED FILE</div>
+            <!-- TO ADD YOUR FILE: Replace the placeholder div below with this line:
+                 <a href="files/presentation.pdf" class="file-button" target="_blank">View Presentation <span class="arrow">→</span></a>
+            -->
+            <div class="placeholder">
+              <div class="icon">🎤</div>
+              <strong>Upload your presentation here</strong>
+              Add your PDF or PPTX to the /files folder, then update the link in this HTML.
             </div>
           </div>
-      </div>
 
-      <div class="section" style="padding-top: 40px; padding-bottom: 80px;">
-        <div class="kicker fade-up">COURSEWORK</div>
-        <h2 class="section-title fade-up delay-1">Explore my work</h2>
-
-        <div class="work-grid">
-          <a href="cyse.html" class="card-link fade-up delay-1">
-            <div class="work-num">→</div>
-            <div class="work-title">CYSE 201S</div>
-            <div class="work-desc">Cybersecurity and the Social Sciences — article reviews, career paper, presentation, and case study.</div>
-            <div class="work-arrow">→ View Course</div>
-          </a>
+          <div class="review-meta">
+            <div class="meta-item">
+              <div class="meta-label">Format</div>
+              <div class="meta-value">PowerPoint / PDF</div>
+            </div>
+            <div class="meta-item">
+              <div class="meta-label">Topic</div>
+              <div class="meta-value">Cybersecurity & Social Sciences</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -92,7 +87,7 @@
   <footer class="footer">
     <div class="footer-inner">
       <div class="footer-brand">George Rector</div>
-      <div class="footer-meta">Old Dominion University · Cybersecurity & AI</div>
+      <div class="footer-meta">Old Dominion University · Cybersecurity &amp; AI</div>
       <div class="footer-meta">© 2026</div>
     </div>
   </footer>
