@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Augustus — ePortfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ═══════════ HEADER ═══════════ -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-first">Augustus</span>
+        <span class="brand-sep">·</span>
+        <span class="brand-second">ePortfolio</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html" class="nav-link active">About Me</a>
+        <a href="cyse.html" class="nav-link">CYSE 201S</a>
+      </nav>
+      <button class="mobile-toggle" onclick="document.querySelector('.mobile-menu').classList.toggle('open')">☰</button>
+    </div>
+    <div class="mobile-menu">
+      <a href="index.html" class="nav-link">About Me</a>
+      <a href="cyse.html" class="nav-link">CYSE 201S — Overview</a>
+      <a href="reviews.html" class="sub-link">Article Reviews</a>
+      <a href="career.html" class="sub-link">Career Paper</a>
+      <a href="presentation.html" class="sub-link">Presentation</a>
+      <a href="case-study.html" class="sub-link">Case Study</a>
+    </div>
+  </header>
+
+  <!-- ═══════════ MAIN ═══════════ -->
+  <main>
+    <div class="container">
+      <div class="section" style="padding-top: 80px;">
+        <div class="kicker fade-up">HELLO —</div>
+
+        <h1 class="hero-title fade-up delay-1">
+          I'm <em class="title-italic">Augustus</em>,<br />
+          a cybersecurity student.
+        </h1>
+
+        <div class="hero-grid">
+          <!-- Photo -->
+          <div class="image-wrap fade-up delay-2">
+            <div class="image-frame">
+              <!-- TO ADD YOUR PHOTO: Replace the div below with: <img src="photo.jpg" alt="Augustus" /> -->
+              <div class="image-placeholder">
+                <div style="font-size: 32px; margin-bottom: 12px; color: #c4983a;">◐</div>
+                <div style="font-size: 13px; font-weight: 600; color: #1a1a1a; margin-bottom: 6px;">Your Photo Goes Here</div>
+                <div style="font-size: 11px; color: #888; line-height: 1.6;">Replace this placeholder with a recent, professional photo of yourself.</div>
+              </div>
+            </div>
+            <div class="image-meta">
+              <span>01 / PORTRAIT</span>
+            </div>
+          </div>
+
+          <!-- Bio -->
+          <div class="bio-section fade-up delay-3">
+            <p class="bio-para">
+              I'm a cybersecurity major at <strong>Old Dominion University</strong>, focused on the intersection of technology, human behavior, and security policy.
+            </p>
+            <p class="bio-para">
+              My work explores how social science frameworks — psychology, sociology, economics, and ethics — shape the way organizations and individuals respond to cyber threats. I'm especially drawn to topics like social engineering, digital privacy, and the human factors that make security policies actually work (or quietly fall apart).
+            </p>
+            <p class="bio-para">
+              This portfolio collects the work I've completed during my studies in <em>Cybersecurity and the Social Sciences</em> — papers, reviews, presentations, and reflections that connect classroom theory to real-world cybersecurity challenges.
+            </p>
+
+            <div class="fact-grid">
+              <div class="fact">
+                <div class="fact-label">University</div>
+                <div class="fact-value">Old Dominion University</div>
+              </div>
+              <div class="fact">
+                <div class="fact-label">Major</div>
+                <div class="fact-value">Cybersecurity</div>
+              </div>
+              <div class="fact">
+                <div class="fact-label">Course</div>
+                <div class="fact-value">CYSE 201S</div>
+              </div>
+              <div class="fact">
+                <div class="fact-label">Focus Areas</div>
+                <div class="fact-value">Social Engineering, Privacy, Policy</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quote -->
+      <div class="section" style="padding-top: 60px; padding-bottom: 80px;">
+        <div class="quote-block fade-up">
+          <div class="quote-mark">"</div>
+          <p class="quote-text">
+            Cybersecurity isn't really about computers. It's about people who use computers — what they trust, what they fear, and what they overlook.
+          </p>
+          <div class="quote-attr">— A perspective I've grown into through this course</div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- ═══════════ FOOTER ═══════════ -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">Augustus</div>
+      <div class="footer-meta">Old Dominion University · Cybersecurity</div>
+      <div class="footer-meta">© 2026</div>
+    </div>
+  </footer>
+
+</body>
+</html>

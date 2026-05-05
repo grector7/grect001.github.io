@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Presentation — Augustus ePortfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-first">Augustus</span>
+        <span class="brand-sep">·</span>
+        <span class="brand-second">ePortfolio</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">About Me</a>
+        <a href="cyse.html" class="nav-link active">CYSE 201S</a>
+      </nav>
+      <button class="mobile-toggle" onclick="document.querySelector('.mobile-menu').classList.toggle('open')">☰</button>
+    </div>
+    <div class="mobile-menu">
+      <a href="index.html" class="nav-link">About Me</a>
+      <a href="cyse.html" class="nav-link">CYSE 201S — Overview</a>
+      <a href="reviews.html" class="sub-link">Article Reviews</a>
+      <a href="career.html" class="sub-link">Career Paper</a>
+      <a href="presentation.html" class="sub-link">Presentation</a>
+      <a href="case-study.html" class="sub-link">Case Study</a>
+    </div>
+    <div class="sub-nav">
+      <div class="sub-nav-inner">
+        <a href="cyse.html" class="sub-link">Overview</a>
+        <a href="reviews.html" class="sub-link">Article Reviews</a>
+        <a href="career.html" class="sub-link">Career Paper</a>
+        <a href="presentation.html" class="sub-link active">Presentation</a>
+        <a href="case-study.html" class="sub-link">Case Study</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="section">
+        <div class="kicker fade-up">PRESENTATION</div>
+        <h1 class="page-title fade-up delay-1">
+          Cybersecurity <em class="title-italic">presentation</em>
+        </h1>
+        <p class="lead fade-up delay-2">
+          A presentation connecting cybersecurity policy, human behavior, and social science research — presented as part of the CYSE 201S coursework.
+        </p>
+
+        <div class="review-card fade-up delay-1">
+          <div class="review-header">
+            <span class="review-num">Slide Deck</span>
+            <span class="review-type">PDF / PPTX</span>
+          </div>
+
+          <div class="upload-box">
+            <div class="upload-label">UPLOADED FILE</div>
+            <!-- TO ADD YOUR FILE: Replace the placeholder div below with this line:
+                 <a href="files/presentation.pdf" class="file-button" target="_blank">View Presentation <span class="arrow">→</span></a>
+            -->
+            <div class="placeholder">
+              <div class="icon">🎤</div>
+              <strong>Upload your presentation here</strong>
+              Add your PDF or PPTX to the /files folder, then update the link in this HTML.
+            </div>
+          </div>
+
+          <div class="review-meta">
+            <div class="meta-item">
+              <div class="meta-label">Format</div>
+              <div class="meta-value">PowerPoint / PDF</div>
+            </div>
+            <div class="meta-item">
+              <div class="meta-label">Topic</div>
+              <div class="meta-value">Cybersecurity & Social Sciences</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">Augustus</div>
+      <div class="footer-meta">Old Dominion University · Cybersecurity</div>
+      <div class="footer-meta">© 2026</div>
+    </div>
+  </footer>
+
+</body>
+</html>
